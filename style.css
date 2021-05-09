@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+
+  margin: 0; 
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  display: flex;
+  background-color: #419474;
+}
+
+.logo {
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: lowercase;
+  color: #fdfdfdea;
+}
+
+.logo img{
+  padding: 5px;
+  width: 30px;
+}
+
+.logo h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.region-input {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  display: flex;
+  align-content: center;
+
+}
+
+.region-input-field {
+  padding-left: 30px;
+
+  background-image: url(./assets/icons/geo.svg);
+  background-size: 26px;
+  background-repeat: no-repeat;
+  background-position: 2px 3px;
+  border: 2px solid #2a5f4b;
+  border-right: 1px solid #2a5f4b;
+  border-radius: 5px;
+  outline: none;
+
+  width: 200px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+
+
+.product-input {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  position: relative;
+  
+  align-content: center;
+
+}
+
+.product-input-field {
+  padding-right: 35px;
+
+  border: 2px solid #2a5f4b;
+  border-left: 1px solid #2a5f4b;
+  border-radius: 5px;
+  outline: none;
+
+  width: 400px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+
+
+.search-submit-btn {
+  padding: 0;
+
+  width: 30px;
+  height: 30px;
+
+  position: absolute;
+  top: 3px;
+  left: 405px;
+
+  border: 0;
+  background-color: transparent;
+}
+.search-submit-btn img{
+  
+  width: 26px;
+
+  /*background-image: url(./assets/icons/search.svg);
+  background-size: 26px;
+  background-repeat: no-repeat;*/
+}
