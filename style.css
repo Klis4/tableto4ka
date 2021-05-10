@@ -85,8 +85,6 @@ body {
   font-size: 18px;
 }
 
-
-
 .search-submit-btn {
   padding: 0;
 
@@ -100,11 +98,79 @@ body {
   border: 0;
   background-color: transparent;
 }
-.search-submit-btn img{
-  
-  width: 26px;
+.search-submit-btn img{ width: 26px; }
 
-  /*background-image: url(./assets/icons/search.svg);
-  background-size: 26px;
-  background-repeat: no-repeat;*/
+
+.main {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.search-categories {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 800px;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.search-by-pharmacy,
+.search-by-product {
+  width: 250px;
+  padding: 20px;
+  
+  border: 2px solid #2a5f4b;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+.search-by-pharmacy-icon,
+.search-by-product-icon {
+  width: 70px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-by-pharmacy img,
+.search-by-product img {  width: 70px; }
+
+.search-by-pharmacy h3,
+.search-by-product h3 {
+  margin: 0;
+  text-transform: uppercase;
+  
+}
+
+.footer {
+  height: 85px;
+  display: flex;
+  background-color: #36423e;
+}
+
+.copyright-info {
+  margin-left: 100px;
+  color: #fdfdfdea;
+  font-size: 12px;
+  
+}
+
+.copyright-info h4 {
+  margin: 0;
+}
+
+.footer-links {
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  align-items: center;
+
+}
+
+.footer-links a {
+  color: #fdfdfdea;
+  text-decoration-line: none;
 }
